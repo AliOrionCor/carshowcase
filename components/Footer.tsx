@@ -29,6 +29,15 @@ const Footer = () => {
 
                 </div>
             </div>
+
+            <div className='flex justify-betwwn items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
+                <p>@2025 CarHub. All Rights Reserved</p>
+                <div className='footer__copyrights-link'>
+                    <Link href="/" className='text-gray-500'>Privacy policy</Link>
+                    <Link href="/" className='text-gray-500'>Terms of use</Link>
+                </div>
+            </div>
+
         </div>
     )
 }
